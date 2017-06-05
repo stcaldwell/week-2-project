@@ -11,3 +11,77 @@
   vertical-align: baseline;
   background: transparent;
 }
+
+/*Navigation Items*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.logo img{
+  height: 100%;
+  width: 105px;
+}
+
+.nav-bar {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+
+}
+
+.nav-item a{
+  text-decoration: none;
+  padding-right: 5%;
+  font-size: 15pt;
+  color: #FFF;
+  font-family: 'PT Sans';
+}
+
+#home-link {
+  background-color: #00A5BF;
+  height: 33%;
+}
+
+#calendar-link {
+  background-color: #00B7D3;
+  height: 33%;
+}
+
+#join-link {
+  background-color: #00D5E7;
+  height: 33%;
+}
+
+/*Home Top Content*/
+
+.top-content {
+  margin: 0 6%;
+}
+
+.top-content h1 {
+  font-size: 20pt;
+  font-family: 'PT Sans';
+  font-weight: lighter;
+  color: #091740;
+  padding: 5% 0;
+}
+
+h2 {
+  background-color: #0B1942;
+  color: #FFF;
+  padding-left: 5%;
+  height: 37px;
+  font-size: 18pt;
+  font-family: 'PT Sans';
+  font-weight: lighter;
+}
+
+.top-content p {
+  padding: 6%;
+}
+
+/*Bottom Content*/
