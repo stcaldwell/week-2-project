@@ -85,3 +85,23 @@ h2 {
 }
 
 /*Bottom Content*/
+
+.bottom-content {
+  background-color: #0B1942;
+}
+
+.next-movie {
+  background-color: #E2E2E2;
+  margin: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-image: url(images/images/rashomon-poster.jpg);*/
+}
+
+.movie-poster1 {
+  background-image: url('/Users/samuelcaldwell/TIY/Week 2/week-two-project/images/images/rashomon-poster.jpg');
+  height: 199px;
+  width: 38%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
