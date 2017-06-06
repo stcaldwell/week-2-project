@@ -90,18 +90,68 @@ h2 {
   background-color: #0B1942;
 }
 
+/*Up coming movie (Rashomon)*/
+
 .next-movie {
   background-color: #E2E2E2;
   margin: 4%;
   display: flex;
-  flex-wrap: wrap;
+  height: 260px;
+  /*flex-wrap: wrap;*/
   /*background-image: url(images/images/rashomon-poster.jpg);*/
 }
 
 .movie-poster1 {
   background-image: url('/Users/samuelcaldwell/TIY/Week 2/week-two-project/images/images/rashomon-poster.jpg');
   height: 199px;
-  width: 38%;
+  width: 80%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 4%;
 }
+
+.movie-info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*align-items: center;*/
+  width: 96%;
+  font-family: 'PT Sans';
+}
+
+.movie-title {
+  margin-bottom: 12%;
+  margin-right: 8%;
+  border-bottom: 1px solid black;
+}
+
+.movie-title h3 {
+  margin: 8% 0;
+  font-size: 14pt;
+  font-weight: lighter;
+  color: #00B7D3;
+}
+
+.movie-title h4 {
+  margin-bottom: 10%;
+  font-weight: lighter;
+  font-size: 10pt;
+}
+
+.discuss-sec h3 {
+  margin-bottom: 6%;
+  font-size: 10pt;
+  width: ;
+}
+
+.disc-sec {
+  list-style: circle;
+  margin-left: 15%;
+  font-size: 10pt;
+}
+
+.disc-sec li {
+  margin: 2%;
+}
+
+/*Future movies coming up (other 4 movies)*/
