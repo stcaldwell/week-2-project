@@ -270,6 +270,7 @@ h2 {
 
 table {
   height: 257px;
+  border-collapse: collapse;
 }
 
 table td {
@@ -277,6 +278,7 @@ table td {
   background-color: white;
   width: 100vw;
   height: 20%;
+  border-collapse: collapse;
 }
 
 td span {
@@ -319,7 +321,39 @@ td span {
 
 }
 
-.join-name input {
-  border: 1px solid DFDFDF;
+.join-form {
+  padding: 3% 0;
 }
+
+.join-form input {
+  border: 1px solid #DFDFDF;
+  width: 95%;
+}
+
+.genre-title {
+  padding-bottom: 5%;
+}
+
+.genre-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  padding: 5% 0;
+}
+
+.text-box input {
+  border: 1px solid #DFDFDF;
+  width: 95%;
+  height: 40px;
+}
+
+/*---------------Tablet---------------*/
+
+@media screen and (min-width: 545px) {
+
+  
+
+
 }
