@@ -297,3 +297,29 @@ td span {
 }
 
 /*---------------Join Page Styling---------------*/
+
+.join-page {
+  margin: 0 4%;
+}
+
+.join-page h1{
+  font-family: 'PT Sans';
+  font-size: 17pt;
+  font-weight: lighter;
+  margin: 6% 0;
+}
+
+.profile-picture-holder{
+  background-image: url(../images/images/profile-placeholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 298px;
+  width: 295px;
+  border-radius: 50%;
+
+}
+
+.join-name input {
+  border: 1px solid DFDFDF;
+}
+}
