@@ -277,7 +277,7 @@ table td {
   border: 1px solid #0B1942;
   background-color: white;
   width: 100vw;
-  height: 20%;
+  height: 12vw;
   border-collapse: collapse;
 }
 
@@ -353,7 +353,63 @@ td span {
 
 @media screen and (min-width: 545px) {
 
-  
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #7DDFE8;
+  }
+
+  .nav-bar {
+    width: 52%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:75%;
+  }
+
+  .nav-item a {
+    align-items: center;
+  }
+
+  .bottom-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  }
+
+  .bottom-nav-bar {
+    width: 52%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .bottom-nav-bar li {
+    height: 100%;
+    list-style: none;
+  }
+
+  .bottom-nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:75%;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
 
 }
