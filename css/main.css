@@ -114,6 +114,7 @@ h2 {
 
 
 
+
 /*Home Bottom Content*/
 
 .bottom-content {
@@ -130,7 +131,7 @@ h2 {
   background-color: #E2E2E2;
   margin: 4%;
   display: flex;
-  height: 260px;
+  height: 65vw;
   /*flex-wrap: wrap;*/
   /*background-image: url(images/images/rashomon-poster.jpg);*/
 }
@@ -154,7 +155,7 @@ h2 {
 }
 
 .movie-title {
-  margin-bottom: 12%;
+  margin-bottom: 6%;
   margin-right: 8%;
   border-bottom: 1px solid black;
 }
@@ -173,18 +174,21 @@ h2 {
 }
 
 .discuss-sec h3 {
-  margin-bottom: 6%;
+  margin-bottom: 5%;
   font-size: 10pt;
 }
 
 .disc-sec {
   list-style: circle;
-  margin-left: 15%;
+  margin-left: 10%;
   font-size: 10pt;
+  width: 5vw;
+  height: 10vw;
+
 }
 
 .disc-sec li {
-  margin: 2%;
+  margin: 2% 0 2% 0;
 }
 
 /*Future movies coming up (other 4 movies)*/
@@ -192,10 +196,11 @@ h2 {
 .future-movies {
   margin: 4%;
   background-color: #E2E2E2;
+  height: 100vw;
+
   display: grid;
-  grid-template-columns: 165px 165px;
+  grid-template-columns: 156px 156px;
   grid-template-rows: 200px 31px 31px 200px 31px 31px;
-  height: 542px;
 
 }
 
@@ -209,41 +214,71 @@ h2 {
 .future-movies p {
   font-size: 10pt;
   font-family: 'PT Sans';
-  margin: 5% 8%;
+  margin: 8%;
 }
+
+/*.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 45%;
+  width: 45%;
+}*/
 
 .movie-poster2 {
   background-image: url(../images/images/great-train-poster.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 8%;
-  height: 100%;
+  height: auto;
+
+
+  /*height: 35vw;
+  width: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8%;*/
 
 }
 
 .movie-poster3 {
   background-image: url(../images/images/bicycle-thief-poster.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 8%;
-  height: 100%;
+  height: auto;
+
+  /*height: 35vw;
+  width: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4%;*/
 
 }
 
 .movie-poster4 {
   background-image: url(../images/images/nosferatu-poster.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 8%;
-  height: 100%;
+  height: auto;
+  /*height: 35vw;
+  width: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4%;*/
 }
 
 .movie-poster5 {
   background-image: url(../images/images/metropolis-poster.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 8%;
-  height: 100%;
+  height: auto;
+  /*height: 35vw;
+  width: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4%;*/
 }
 
 /*---------------Calendar Page Styling---------------*/
@@ -426,6 +461,7 @@ td span {
     align-items: center;
   }
 
+
   .picture-form {
     display: flex;
     flex-wrap: nowrap;
@@ -457,9 +493,7 @@ td span {
   }
 
 
-
 }
-
 /*---------------Desktop View---------------*/
 
 @media screen and (min-width: 769px) {
@@ -484,3 +518,39 @@ td span {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
+
+}
+
+
+
+/*<!-- <section class="future-movies">
+
+  <div class="movie-poster2">  </div>
+
+  <div class="movie-poster3"></div>
+
+    <a href="https://www.youtube.com/watch?v=zuto7qWrplc">The Great Train Robbery</a>
+
+    <a href="https://www.youtube.com/watch?v=H3jnzXX9mXs">The Bicycle Thief</a>
+    <p>Film Club: 6/27</p>
+
+
+    <p>Film Club: 7/11</p>
+
+  <div class="movie-poster4"></div>
+
+  <div class="movie-poster5"></div>
+
+    <a href="https://www.youtube.com/watch?v=FC6jFoYm3xs">Nosferatu</a>
+
+    <a href="https://www.youtube.com/watch?v=Q0NzALRJifI">Metropolis</a>
+
+
+  <p>Film Club: 7/25</p>
+
+
+  <p>Film Club: 8/08</p>
+
+</section>
+
+</div> -->*/
