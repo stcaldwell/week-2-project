@@ -349,6 +349,21 @@ td span {
   height: 40px;
 }
 
+.submit {
+  background-color: #F5005B;
+  width: 105px;
+  height: 48px;
+  margin-bottom: 30px;
+  font-family: 'PT Sans';
+  font-size: 10pt;
+
+}
+
+.submit input {
+  color: white;
+  padding: 10px;
+}
+
 /*---------------Tablet---------------*/
 
 @media screen and (min-width: 545px) {
@@ -411,6 +426,61 @@ td span {
     align-items: center;
   }
 
-  
+  .picture-form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
 
+  .join-page-form {
+    width: 60%;
+    padding-left: 3%;
+  }
+
+  .join-form input {
+    width: 100%;
+  }
+
+  .name-email {
+    padding-bottom: 2%;
+  }
+
+  .genre-buttons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .genre-buttons label {
+    width: 45%;
+    margin-right: 0;
+    padding-bottom: 5px;
+  }
+
+
+
+}
+
+/*---------------Desktop View---------------*/
+
+@media screen and (min-width: 769px) {
+
+.join-page-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 50%;
+}
+
+.join-page-form input {
+  width: 100%;
+}
+
+.join-form {
+  width: 45%;
+}
+
+.genre-buttons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
