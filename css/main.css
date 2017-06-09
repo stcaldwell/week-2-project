@@ -112,13 +112,20 @@ h2 {
 }
 
 
+.w-tn-m {
+  display: grid;
+}
 
+.w-tn-m {
+  font-family: 'PT Sans';
+}
 
 
 /*Home Bottom Content*/
 
 .bottom-content {
   background-color: #0B1942;
+  padding-bottom: 20px;
 }
 
 .bottom-content h2 {
@@ -196,11 +203,8 @@ h2 {
 .future-movies {
   margin: 4%;
   background-color: #E2E2E2;
-  height: 100vw;
-
   display: grid;
-  grid-template-columns: 156px 156px;
-  grid-template-rows: 200px 31px 31px 200px 31px 31px;
+  grid-template-columns: 50% 50%;
 
 }
 
@@ -229,7 +233,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 8%;
-  height: auto;
+  height: 50vw;
+  width: 30vw;
 
 
   /*height: 35vw;
@@ -245,7 +250,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 8%;
-  height: auto;
+  height: 50vw;
+  width: 30vw;
 
   /*height: 35vw;
   width: 30vw;
@@ -260,7 +266,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 8%;
-  height: auto;
+  height: 50vw;
+  width: 30vw;
   /*height: 35vw;
   width: 30vw;
   background-repeat: no-repeat;
@@ -273,7 +280,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 8%;
-  height: auto;
+  height: 50vw;
+  width: 30vw;
   /*height: 35vw;
   width: 30vw;
   background-repeat: no-repeat;
@@ -461,6 +469,11 @@ td span {
     align-items: center;
   }
 
+  .w-tn-m {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+  }
 
   .picture-form {
     display: flex;
@@ -492,6 +505,36 @@ td span {
     padding-bottom: 5px;
   }
 
+  .movie-container {
+    width: 20vw;
+  }
+
+  .future-movies {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 90vw;
+  }
+
+  .movie-poster2 {
+    width: 18vw;
+    height: 28vw;
+  }
+
+  .movie-poster3 {
+    width: 18vw;
+    height: 28vw;
+  }
+
+  .movie-poster4 {
+    width: 18vw;
+    height: 28vw;
+  }
+
+  .movie-poster5{
+    width: 18vw;
+    height: 28vw;
+  }
+
 
 }
 /*---------------Desktop View---------------*/
@@ -517,6 +560,11 @@ td span {
 .genre-buttons {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+}
+
+
+.w-tn-m {
+  font-size: 1.2em;
 }
 
 }
