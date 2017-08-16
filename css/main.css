@@ -135,16 +135,13 @@ h2 {
   margin: 4%;
   display: flex;
   height: 65vw;
-  /*flex-wrap: wrap;*/
-  /*background-image: url(images/images/rashomon-poster.jpg);*/
+
 }
 
 .movie-poster1 {
-  background-image: url(../images/images/rashomon-poster.jpg);
+  background: url(../images/images/rashomon-poster.jpg) cover no-repeat;
   height: 50vw;
   width: 60vw;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 4%;
 }
 
@@ -152,14 +149,12 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /*align-items: center;*/
   width: 96%;
   font-family: 'PT Sans';
 }
 
 .movie-title {
-  margin-bottom: 6%;
-  margin-right: 8%;
+  margin: 0 8% 6% 0;
   border-bottom: 1px solid black;
 }
 
