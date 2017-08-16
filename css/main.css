@@ -139,7 +139,9 @@ h2 {
 }
 
 .movie-poster1 {
-  background: url(../images/images/rashomon-poster.jpg) cover no-repeat;
+  background-image: url(../images/images/rashomon-poster.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 50vw;
   width: 60vw;
   margin: 4%;
@@ -212,13 +214,6 @@ h2 {
   margin: 8%;
 }
 
-/*.movie-container {
-  display: flex;
-  flex-wrap: wrap;
-  height: 45%;
-  width: 45%;
-}*/
-
 .movie-poster2 {
   background-image: url(../images/images/great-train-poster.jpg);
   background-repeat: no-repeat;
@@ -226,13 +221,6 @@ h2 {
   margin: 8%;
   height: 50vw;
   width: 30vw;
-
-
-  /*height: 35vw;
-  width: 30vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 8%;*/
 
 }
 
@@ -244,12 +232,6 @@ h2 {
   height: 50vw;
   width: 30vw;
 
-  /*height: 35vw;
-  width: 30vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 4%;*/
-
 }
 
 .movie-poster4 {
@@ -259,11 +241,6 @@ h2 {
   margin: 8%;
   height: 50vw;
   width: 30vw;
-  /*height: 35vw;
-  width: 30vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 4%;*/
 }
 
 .movie-poster5 {
@@ -273,11 +250,6 @@ h2 {
   margin: 8%;
   height: 50vw;
   width: 30vw;
-  /*height: 35vw;
-  width: 30vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 4%;*/
 }
 
 /*---------------Calendar Page Styling---------------*/
