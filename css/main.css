@@ -67,10 +67,8 @@ nav {
 
 .bottom-nav-item a {
   text-decoration: none;
-  font-size: 10pt;
   color: #FFF;
-  font-family: 'PT Sans';
-
+  font: 10pt 'PT Sans';
 
 }
 
@@ -102,9 +100,7 @@ h2 {
   color: #FFF;
   padding-left: 5%;
   height: 37px;
-  font-size: 18pt;
-  font-family: 'PT Sans';
-  font-weight: lighter;
+  font: lighter 18pt 'PT Sans';
 }
 
 .top-content p {
